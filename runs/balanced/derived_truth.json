@@ -1,0 +1,261 @@
+{
+  "fingerprint": "21f7b2398861fc74",
+  "core": {
+    "corpus_repos": 41,
+    "pairwise_combinations": 820,
+    "weights_v3_struct": {
+      "size": 0.18,
+      "primary_lang": 0.12,
+      "lang_shape": 0.12,
+      "top_dir_count": 0.18,
+      "flat_single_pkg": 0.12,
+      "top_dirs": 0.12,
+      "depth": 0.12,
+      "test_ratio": 0.04
+    },
+    "weights_v3_sum": 1.0,
+    "weights_v2": {
+      "size": 0.15,
+      "primary_lang": 0.15,
+      "lang_shape": 0.1,
+      "top_dir_count": 0.15,
+      "flat_single_pkg": 0.1,
+      "top_dirs": 0.1,
+      "depth": 0.1,
+      "test_ratio": 0.15
+    },
+    "lang_distribution": {
+      "Python": 15,
+      "Rust": 9,
+      "Go": 7,
+      "Java": 4,
+      "C#": 2,
+      "TypeScript": 2,
+      "JavaScript": 1,
+      "ReST": 1
+    },
+    "lang_expectation": {
+      "Rust": 1.0976,
+      "Python": 1.8293,
+      "Go": 0.8537,
+      "Java": 0.4878
+    },
+    "lang_hits": {
+      "v3": {
+        "Rust": 3.2222,
+        "Python": 4.8,
+        "Go": 3.5714,
+        "Java": 2.0
+      },
+      "v2": {
+        "Rust": 3.7778,
+        "Python": 5.0,
+        "Go": 4.5714,
+        "Java": 2.25
+      }
+    },
+    "lang_ratio": {
+      "Rust": 2.9358,
+      "Python": 2.624,
+      "Go": 4.1836,
+      "Java": 4.1
+    },
+    "size_component": {
+      "v1_min": 0.304223,
+      "v1_median": 0.7444,
+      "v2_min": 0.0,
+      "v2_median": 0.4646
+    },
+    "size_span_ratio": 1640.2,
+    "size_span_files": [
+      24,
+      39364
+    ],
+    "component_stats": {
+      "size": {
+        "min": 0.0,
+        "median": 0.464626,
+        "max": 1.0,
+        "frac_lt_0.3": 0.395122
+      },
+      "primary_lang": {
+        "min": 0.0,
+        "median": 0.0,
+        "max": 1.0,
+        "frac_lt_0.3": 0.792683
+      },
+      "lang_shape": {
+        "min": 0.00044,
+        "median": 0.875517,
+        "max": 1.0,
+        "frac_lt_0.3": 0.080488
+      },
+      "top_dir_count": {
+        "min": 0.261282,
+        "median": 0.773976,
+        "max": 1.0,
+        "frac_lt_0.3": 0.003659
+      },
+      "flat_single_pkg": {
+        "min": 0.0,
+        "median": 1.0,
+        "max": 1.0,
+        "frac_lt_0.3": 0.460976
+      },
+      "top_dirs": {
+        "min": 0.0,
+        "median": 0.052632,
+        "max": 1.0,
+        "frac_lt_0.3": 0.914634
+      },
+      "depth": {
+        "min": 0.405684,
+        "median": 0.773976,
+        "max": 1.0,
+        "frac_lt_0.3": 0.0
+      },
+      "test_ratio": {
+        "min": 0.0,
+        "median": 0.679975,
+        "max": 0.999954,
+        "frac_lt_0.3": 0.3
+      }
+    },
+    "dashboard_bytes": 232102,
+    "dashboard_kb": 226.7
+  },
+  "overlap": {
+    "overlap": {
+      "struct|struct": 1.0,
+      "struct|content": 0.370732,
+      "struct|fn": 0.404878,
+      "content|struct": 0.370732,
+      "content|content": 1.0,
+      "content|fn": 0.321951,
+      "fn|struct": 0.404878,
+      "fn|content": 0.321951,
+      "fn|fn": 1.0
+    },
+    "repos_with_readme": 41,
+    "case_a_structure_only": [
+      {
+        "query": "BurntSushi/ripgrep",
+        "match": "clap-rs/clap",
+        "struct": 0.7459,
+        "content": 0.1172,
+        "struct_top5": [
+          "sharkdp/bat",
+          "sharkdp/fd",
+          "clap-rs/clap",
+          "pallets/click",
+          "rust-lang/cargo"
+        ],
+        "content_top5": [
+          "sharkdp/bat",
+          "sharkdp/fd",
+          "mono/mono",
+          "rust-lang/cargo",
+          "air-verse/air"
+        ]
+      },
+      {
+        "query": "Textualize/rich",
+        "match": "encode/starlette",
+        "struct": 0.7326,
+        "content": 0.1665,
+        "struct_top5": [
+          "sanic-org/sanic",
+          "encode/starlette",
+          "tiangolo/typer",
+          "encode/uvicorn",
+          "encode/httpx"
+        ],
+        "content_top5": [
+          "Textualize/textual",
+          "sharkdp/bat",
+          "tiangolo/typer",
+          "apache/kafka",
+          "sanic-org/sanic"
+        ]
+      },
+      {
+        "query": "Textualize/textual",
+        "match": "tox-dev/tox",
+        "struct": 0.7724,
+        "content": 0.1337,
+        "struct_top5": [
+          "tox-dev/tox",
+          "python-poetry/poetry",
+          "rust-lang/cargo",
+          "pallets/click",
+          "tiangolo/typer"
+        ],
+        "content_top5": [
+          "Textualize/rich",
+          "tiangolo/typer",
+          "tiangolo/fastapi",
+          "sanic-org/sanic",
+          "encode/starlette"
+        ]
+      },
+      {
+        "query": "Unity-Technologies/UnityCsReference",
+        "match": "apache/kafka",
+        "struct": 0.6068,
+        "content": 0.1071,
+        "struct_top5": [
+          "microsoft/vscode",
+          "apache/kafka",
+          "rust-lang/rust",
+          "rust-lang/cargo",
+          "mono/mono"
+        ],
+        "content_top5": [
+          "square/retrofit",
+          "rust-lang/cargo",
+          "microsoft/vscode",
+          "rust-lang/rust",
+          "expressjs/express"
+        ]
+      }
+    ],
+    "case_b_content_only": [
+      {
+        "query": "BurntSushi/ripgrep",
+        "match": "mono/mono",
+        "content": 0.3103,
+        "struct": 0.3638,
+        "match_in_struct_top5": false
+      },
+      {
+        "query": "Textualize/rich",
+        "match": "Textualize/textual",
+        "content": 0.3308,
+        "struct": 0.6634,
+        "match_in_struct_top5": false
+      },
+      {
+        "query": "Textualize/textual",
+        "match": "Textualize/rich",
+        "content": 0.3308,
+        "struct": 0.6634,
+        "match_in_struct_top5": false
+      },
+      {
+        "query": "Unity-Technologies/UnityCsReference",
+        "match": "square/retrofit",
+        "content": 0.2062,
+        "struct": 0.3587,
+        "match_in_struct_top5": false
+      }
+    ],
+    "named_case": {
+      "query": "Textualize/textual",
+      "match": "Textualize/rich",
+      "content": 0.3308,
+      "struct": 0.6634,
+      "in_struct_top5": false,
+      "in_content_top5": true
+    }
+  }
+}

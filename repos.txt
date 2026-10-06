@@ -1,0 +1,28 @@
+# 候选仓库清单 —— 每行一个 owner/name
+# 用途：给 RepoLens 做结构相似度演示
+# 说明：# 开头为注释；运行前请确认这些仓库的规模适中（磁盘有限）
+
+# ---- 目标仓库：比赛主赛道数据集里出现的 4 个真实 Python 项目 ----
+tiangolo/fastapi
+Textualize/rich
+psf/requests
+encode/httpx
+
+# ---- 结构对照：同为 Python Web 框架/工具，应判为"像" ----
+pallets/flask
+django/django
+encode/starlette
+pallets/quart
+sanic-org/sanic
+tiangolo/typer
+encode/uvicorn
+pallets/click
+Textualize/textual
+python-poetry/poetry
+tox-dev/tox
+pytest-dev/pytest
+
+# ---- 结构对照：非 Python，应判为"不像" ----
+gin-gonic/gin
+gohugoio/hugo
+rust-lang/cargo

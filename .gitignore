@@ -1,0 +1,30 @@
+# RepoLens — published artifacts only.
+#
+# The cloned corpus (~1.8 GB of third-party source) must NOT be published:
+# RepoLens stores and redistributes only DERIVED STATISTICS, never upstream code.
+corpus/
+
+# Derived statistics ARE published on purpose — they carry no third-party source
+# and they are what makes the paper's numbers independently verifiable:
+#   runs/balanced/features.json        extracted features (41 repos)
+#   runs/balanced/derived_truth.json   every number quoted in the paper
+#   runs/balanced/dashboard.html       the offline artifact (self-contained)
+#   runs/figures/*.png                 the four figures
+# Do not add those to this file.
+
+# Local noise
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.idea/
+
+# Working draft: superseded by WRITEUP_FINAL.md and still contains the
+# unreproducible Case-A numbers. Must not be published.
+WRITEUP_DRAFT.md
+
+
+# Chinese working log: contains superseded Case-A numbers that no longer
+# reproduce against runs/balanced/. Kept locally, not published.
+10_RepoLens*
+

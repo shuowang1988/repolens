@@ -1,0 +1,54 @@
+# 语料扩容清单 —— 按语言均衡（第二轮）
+# 背景：v2 诊断发现 gin(Go) 的 Top-5 里 Python 项目占 4 席，
+#       原因是语料 Python 16 个 / Go 2 个 / Rust 1 个 / JS 0 个，
+#       **类目不平衡导致数量优势盖过语言信号**。本轮把每类补到 10+。
+# 选仓原则：知名度高 + 规模适中（避开 chromium/tensorflow/electron 这类 1GB+ 巨兽）
+
+# ---- Go（原有 gin、hugo，再补 10 个）----
+spf13/cobra
+spf13/viper
+uber-go/zap
+stretchr/testify
+grpc/grpc-go
+go-redis/redis
+air-verse/air
+gohugoio/hugo
+gin-gonic/gin
+labstack/echo
+
+# ---- Rust（原有 cargo，再补 9 个）----
+BurntSushi/ripgrep
+sharkdp/bat
+sharkdp/fd
+serde-rs/serde
+tokio-rs/tokio
+clap-rs/clap
+hyperium/hyper
+dtolnay/anyhow
+rust-lang/rust
+
+# ---- JavaScript / TypeScript（原有 0，补 10 个）----
+axios/axios
+expressjs/express
+lodash/lodash
+reduxjs/redux
+webpack/webpack
+jestjs/jest
+sindresorhus/semver
+prettier/prettier
+eslint/eslint
+chalk/chalk
+
+# ---- Java（原有 0，补 5 个）----
+spring-projects/spring-boot
+google/guava
+apache/kafka
+netty/netty
+square/retrofit
+
+# ---- C# / .NET（补 5 个）----
+dotnet/runtime
+aspnet/AspNetCore
+mono/mono
+Unity-Technologies/UnityCsReference
+microsoft/vscode

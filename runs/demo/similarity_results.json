@@ -1,0 +1,857 @@
+{
+  "tiangolo/fastapi": {
+    "target_features": {
+      "name": "tiangolo/fastapi",
+      "path": "..\\corpus\\tiangolo__fastapi",
+      "n_files": 3153,
+      "n_code_files": 1170,
+      "n_test_files": 659,
+      "n_dirs": 0,
+      "total_code_lines": 118711,
+      "max_depth": 6,
+      "lang_counts": {
+        "JavaScript": 4,
+        "Python": 1166
+      },
+      "top_level_dirs": [
+        "docs",
+        "docs_src",
+        "fastapi",
+        "scripts",
+        "tests"
+      ],
+      "path_segments": {
+        "docs": 14,
+        "docs_src": 1,
+        "fastapi": 2,
+        "scripts": 1,
+        "tests": 2,
+        "de": 1,
+        "en": 1,
+        "es": 1,
+        "fr": 1,
+        "hi": 1,
+        "ja": 1,
+        "ko": 1,
+        "pt": 1,
+        "ru": 1,
+        "tr": 1,
+        "uk": 1,
+        "zh": 1,
+        "zh-hant": 1,
+        "about": 13,
+        "advanced": 13,
+        "deployment": 14,
+        "how-to": 13,
+        "learn": 13,
+        "resources": 13,
+        "tutorial": 14,
+        "security": 30,
+        "dependencies": 16,
+        "data": 7,
+        "overrides": 1,
+        "css": 1,
+        "img": 1,
+        "js": 1,
+        "reference": 1,
+        "async": 1,
+        "index": 1,
+        "logo-margin": 1,
+        "logos": 1,
+        "python-types": 1,
+        "sponsors": 1,
+        "concurrent-burgers": 1,
+        "parallel-burgers": 1,
+        "concepts": 1,
+        "deta": 1,
+        "https": 1,
+        "additional-responses": 1,
+        "async-sql-databases": 1,
+        "behind-a-proxy": 1,
+        "bigger-applications": 1,
+        "body": 2,
+        "body-fields": 1,
+        "body-nested-models": 1,
+        "cookie-param-models": 1,
+        "custom-response": 1,
+        "dataclasses": 1,
+        "debugging": 2,
+        "extending-openapi": 1,
+        "generate-clients": 1,
+        "graphql": 1,
+        "header-param-models": 1,
+        "json-base64-bytes": 1,
+        "metadata": 2,
+        "openapi-callbacks": 1,
+        "openapi-webhooks": 1,
+        "opentelemetry": 2,
+        "path-operation-advanced-configuration": 1,
+        "path-operation-configuration": 1,
+        "path-params": 1,
+        "query-param-models": 1,
+        "query-params-str-validations": 1,
+        "request-form-models": 1,
+        "response-model": 1,
+        "response-status-code": 1,
+        "separate-openapi-schemas": 1,
+        "sql-databases": 1,
+        "sub-applications": 1,
+        "websockets": 1,
+        "openapi": 2,
+        "partials": 1,
+        "additional_responses": 1,
+        "additional_status_codes": 1,
+        "advanced_middleware": 1,
+        "app_testing": 1,
+        "async_tests": 1,
+        "authentication_error_status_code": 1,
+        "background_tasks": 1,
+        "behind_a_proxy": 1,
+        "bigger_applications": 1,
+        "body_fields": 1,
+        "body_multiple_params": 1,
+        "body_nested_models": 1,
+        "body_updates": 1,
+        "conditional_openapi": 1,
+        "configure_swagger_ui": 1,
+        "cookie_params": 1,
+        "cookie_param_models": 2,
+        "cors": 1,
+        "custom_docs_ui": 1,
+        "custom_request_and_route": 1,
+        "custom_response": 1,
+        "dataclasses_": 1,
+        "dependency_testing": 1,
+        "encoder": 1,
+        "events": 1,
+        "extending_openapi": 1,
+        "extra_data_types": 1,
+        "extra_models": 1,
+        "first_steps": 1,
+        "frontend": 1,
+        "generate_clients": 1,
+        "graphql_": 1,
+        "handling_errors": 1,
+        "header_params": 1,
+        "header_param_models": 2,
+        "json_base64_bytes": 2,
+        "middleware": 2,
+        "openapi_callbacks": 1,
+        "openapi_webhooks": 1,
+        "path_operation_advanced_configuration": 1,
+        "path_operation_configuration": 1,
+        "path_params": 1,
+        "path_params_numeric_validations": 1,
+        "pydantic_v1_in_v2": 1,
+        "python_types": 1,
+        "query_params": 1,
+        "query_params_str_validations": 1,
+        "query_param_models": 2,
+        "request_files": 1,
+        "request_forms": 1,
+        "request_forms_and_files": 1,
+        "request_form_models": 2,
+        "response_change_status_code": 1,
+        "response_cookies": 1,
+        "response_directly": 1,
+        "response_headers": 1,
+        "response_model": 1,
+        "response_status_code": 1,
+        "schema_extra_example": 1,
+        "separate_openapi_schemas": 2,
+        "server_sent_events": 1,
+        "settings": 1,
+        "sql_databases": 2,
+        "static_files": 1,
+        "stream_data": 1,
+        "stream_json_lines": 1,
+        "strict_content_type": 1,
+        "sub_applications": 1,
+        "templates": 2,
+        "using_request_directly": 1,
+        "websockets_": 1,
+        "wsgi": 1,
+        "app_a_py310": 2,
+        "app_b_an_py310": 1,
+        "app_b_py310": 1,
+        "app_an_py310": 1,
+        "internal": 1,
+        "routers": 1,
+        "app01_py310": 1,
+        "app02_an_py310": 1,
+        "app02_py310": 1,
+        "app03_an_py310": 1,
+        "app03_py310": 1,
+        "static": 1,
+        ".agents": 1,
+        "telemetry": 1,
+        "_compat": 1,
+        "skills": 1,
+        "references": 1,
+        "playwright": 1,
+        "test_translation_fixer": 1,
+        "test_code_blocks": 1,
+        "test_code_includes": 1,
+        "test_complex_doc": 1,
+        "test_header_permalinks": 1,
+        "test_html_links": 1,
+        "test_markdown_links": 1,
+        "benchmarks": 1,
+        "memory_benchmarks": 1,
+        "test_modules_same_name_body": 1,
+        "test_request_params": 1,
+        "test_telemetry": 1,
+        "test_tutorial": 1,
+        "test_validate_response_recursive": 1,
+        "app": 1,
+        "test_body": 2,
+        "test_cookie": 1,
+        "test_file": 1,
+        "test_form": 1,
+        "test_header": 1,
+        "test_path": 1,
+        "test_query": 1,
+        "test_additional_responses": 1,
+        "test_additional_status_codes": 1,
+        "test_advanced_middleware": 1,
+        "test_async_tests": 1,
+        "test_authentication_error_status_code": 1,
+        "test_background_tasks": 1,
+        "test_behind_a_proxy": 1,
+        "test_bigger_applications": 1,
+        "test_body_fields": 1,
+        "test_body_multiple_params": 1,
+        "test_body_nested_models": 1,
+        "test_body_updates": 1,
+        "test_conditional_openapi": 1,
+        "test_configure_swagger_ui": 1,
+        "test_cookie_params": 1,
+        "test_cookie_param_models": 1,
+        "test_cors": 1,
+        "test_custom_docs_ui": 1,
+        "test_custom_request_and_route": 1,
+        "test_custom_response": 1,
+        "test_dataclasses": 1,
+        "test_debugging": 1,
+        "test_dependencies": 1,
+        "test_encoder": 1,
+        "test_events": 1,
+        "test_extending_openapi": 1,
+        "test_extra_data_types": 1,
+        "test_extra_models": 1,
+        "test_first_steps": 1,
+        "test_generate_clients": 1,
+        "test_graphql": 1,
+        "test_handling_errors": 1,
+        "test_header_params": 1,
+        "test_header_param_models": 1,
+        "test_json_base64_bytes": 1,
+        "test_metadata": 1,
+        "test_middleware": 1,
+        "test_openapi_callbacks": 1,
+        "test_openapi_webhooks": 1,
+        "test_opentelemetry": 1,
+        "test_path_operation_advanced_configurations": 1,
+        "test_path_operation_configurations": 1,
+        "test_path_params": 1,
+        "test_path_params_numeric_validations": 1,
+        "test_python_types": 1,
+        "test_query_params": 1,
+        "test_query_params_str_validations": 1,
+        "test_query_param_models": 1,
+        "test_request_files": 1,
+        "test_request_forms": 1,
+        "test_request_forms_and_files": 1,
+        "test_request_form_models": 1,
+        "test_response_change_status_code": 1,
+        "test_response_cookies": 1,
+        "test_response_directly": 1,
+        "test_response_headers": 1,
+        "test_response_model": 1,
+        "test_response_status_code": 1,
+        "test_schema_extra_example": 1,
+        "test_security": 1,
+        "test_separate_openapi_schemas": 1,
+        "test_server_sent_events": 1,
+        "test_settings": 1,
+        "test_sql_databases": 1,
+        "test_static_files": 1,
+        "test_stream_data": 1,
+        "test_stream_json_lines": 1,
+        "test_strict_content_type": 1,
+        "test_sub_applications": 1,
+        "test_templates": 1,
+        "test_testing": 1,
+        "test_testing_dependencies": 1,
+        "test_using_request_directly": 1,
+        "test_websockets": 1,
+        "test_wsgi": 1
+      },
+      "test_path_ratio": 0.20900729464002538,
+      "src_to_test_ratio": 0.7754172989377845
+    },
+    "top": [
+      {
+        "rank": 1,
+        "repo": "tiangolo/typer",
+        "score": 0.888171,
+        "components": {
+          "size": 0.9145,
+          "primary_lang": 1.0,
+          "lang_shape": 0.9976,
+          "top_dirs": 0.6667,
+          "test_ratio": 0.9448
+        },
+        "why": "主语言同为 Python；顶层目录重合：docs, docs_src, scripts, tests；代码规模接近（1170 vs 639 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 2,
+        "repo": "encode/uvicorn",
+        "score": 0.782933,
+        "components": {
+          "size": 0.6288,
+          "primary_lang": 1.0,
+          "lang_shape": 0.9671,
+          "top_dirs": 0.5,
+          "test_ratio": 0.9356
+        },
+        "why": "主语言同为 Python；顶层目录重合：docs, scripts, tests；代码规模接近（1170 vs 84 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 3,
+        "repo": "encode/httpx",
+        "score": 0.775185,
+        "components": {
+          "size": 0.5818,
+          "primary_lang": 1.0,
+          "lang_shape": 0.9671,
+          "top_dirs": 0.5,
+          "test_ratio": 0.9438
+        },
+        "why": "主语言同为 Python；顶层目录重合：docs, scripts, tests；代码规模接近（1170 vs 60 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 4,
+        "repo": "django/django",
+        "score": 0.768318,
+        "components": {
+          "size": 0.8807,
+          "primary_lang": 1.0,
+          "lang_shape": 0.9108,
+          "top_dirs": 0.3333,
+          "test_ratio": 0.8611
+        },
+        "why": "主语言同为 Python；顶层目录重合：docs, scripts, tests；代码规模接近（1170 vs 3049 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 5,
+        "repo": "encode/starlette",
+        "score": 0.75974,
+        "components": {
+          "size": 0.6288,
+          "primary_lang": 1.0,
+          "lang_shape": 0.9671,
+          "top_dirs": 0.4286,
+          "test_ratio": 0.9089
+        },
+        "why": "主语言同为 Python；顶层目录重合：docs, scripts, tests；代码规模接近（1170 vs 84 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 6,
+        "repo": "Textualize/textual",
+        "score": 0.751321,
+        "components": {
+          "size": 0.9764,
+          "primary_lang": 1.0,
+          "lang_shape": 0.9816,
+          "top_dirs": 0.1538,
+          "test_ratio": 0.8517
+        },
+        "why": "主语言同为 Python；代码规模接近（1170 vs 990 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 7,
+        "repo": "sanic-org/sanic",
+        "score": 0.745068,
+        "components": {
+          "size": 0.8295,
+          "primary_lang": 1.0,
+          "lang_shape": 0.8661,
+          "top_dirs": 0.3,
+          "test_ratio": 0.8713
+        },
+        "why": "主语言同为 Python；代码规模接近（1170 vs 350 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 8,
+        "repo": "python-poetry/poetry",
+        "score": 0.739001,
+        "components": {
+          "size": 0.8708,
+          "primary_lang": 1.0,
+          "lang_shape": 0.8773,
+          "top_dirs": 0.2857,
+          "test_ratio": 0.8091
+        },
+        "why": "主语言同为 Python；代码规模接近（1170 vs 469 个代码文件）；测试目录布局接近"
+      }
+    ]
+  },
+  "psf/requests": {
+    "target_features": {
+      "name": "psf/requests",
+      "path": "..\\corpus\\psf__requests",
+      "n_files": 111,
+      "n_code_files": 54,
+      "n_test_files": 42,
+      "n_dirs": 0,
+      "total_code_lines": 14989,
+      "max_depth": 4,
+      "lang_counts": {
+        "ReST": 16,
+        "Python": 37,
+        "Config": 1
+      },
+      "top_level_dirs": [
+        "docs",
+        "ext",
+        "src",
+        "tests"
+      ],
+      "path_segments": {
+        "docs": 1,
+        "ext": 1,
+        "src": 1,
+        "tests": 1,
+        "community": 1,
+        "dev": 1,
+        "user": 1,
+        "_static": 1,
+        "_templates": 1,
+        "_themes": 1,
+        "requests": 1,
+        "certs": 1,
+        "testserver": 1,
+        "expired": 1,
+        "mtls": 1,
+        "valid": 1,
+        "ca": 1,
+        "server": 2,
+        "client": 1
+      },
+      "test_path_ratio": 0.3783783783783784,
+      "src_to_test_ratio": 0.2857142857142857
+    },
+    "top": [
+      {
+        "rank": 1,
+        "repo": "pallets/quart",
+        "score": 0.787047,
+        "components": {
+          "size": 0.8246,
+          "primary_lang": 1.0,
+          "lang_shape": 0.9716,
+          "top_dirs": 0.6,
+          "test_ratio": 0.6319
+        },
+        "why": "主语言同为 Python；顶层目录重合：docs, src, tests；代码规模接近（54 vs 128 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 2,
+        "repo": "pallets/click",
+        "score": 0.757272,
+        "components": {
+          "size": 0.8841,
+          "primary_lang": 1.0,
+          "lang_shape": 0.4554,
+          "top_dirs": 0.5,
+          "test_ratio": 0.9357
+        },
+        "why": "主语言同为 Python；顶层目录重合：docs, src, tests；代码规模接近（54 vs 92 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 3,
+        "repo": "python-poetry/poetry",
+        "score": 0.742279,
+        "components": {
+          "size": 0.6513,
+          "primary_lang": 1.0,
+          "lang_shape": 0.5246,
+          "top_dirs": 0.6,
+          "test_ratio": 0.9167
+        },
+        "why": "主语言同为 Python；顶层目录重合：docs, src, tests；代码规模接近（54 vs 469 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 4,
+        "repo": "pallets/flask",
+        "score": 0.736928,
+        "components": {
+          "size": 0.7867,
+          "primary_lang": 1.0,
+          "lang_shape": 0.6315,
+          "top_dirs": 0.5,
+          "test_ratio": 0.7993
+        },
+        "why": "主语言同为 Python；顶层目录重合：docs, src, tests；代码规模接近（54 vs 162 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 5,
+        "repo": "encode/httpx",
+        "score": 0.723355,
+        "components": {
+          "size": 0.9748,
+          "primary_lang": 1.0,
+          "lang_shape": 0.3689,
+          "top_dirs": 0.3333,
+          "test_ratio": 0.9486
+        },
+        "why": "主语言同为 Python；顶层目录重合：docs, tests；代码规模接近（54 vs 60 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 6,
+        "repo": "tox-dev/tox",
+        "score": 0.699419,
+        "components": {
+          "size": 0.7085,
+          "primary_lang": 1.0,
+          "lang_shape": 0.551,
+          "top_dirs": 0.4286,
+          "test_ratio": 0.8396
+        },
+        "why": "主语言同为 Python；顶层目录重合：docs, src, tests；代码规模接近（54 vs 285 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 7,
+        "repo": "encode/uvicorn",
+        "score": 0.684676,
+        "components": {
+          "size": 0.902,
+          "primary_lang": 1.0,
+          "lang_shape": 0.3689,
+          "top_dirs": 0.3333,
+          "test_ratio": 0.828
+        },
+        "why": "主语言同为 Python；顶层目录重合：docs, tests；代码规模接近（54 vs 84 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 8,
+        "repo": "encode/starlette",
+        "score": 0.667435,
+        "components": {
+          "size": 0.902,
+          "primary_lang": 1.0,
+          "lang_shape": 0.3689,
+          "top_dirs": 0.2857,
+          "test_ratio": 0.8013
+        },
+        "why": "主语言同为 Python；代码规模接近（54 vs 84 个代码文件）；测试目录布局接近"
+      }
+    ]
+  },
+  "Textualize/rich": {
+    "target_features": {
+      "name": "Textualize/rich",
+      "path": "..\\corpus\\Textualize__rich",
+      "n_files": 542,
+      "n_code_files": 278,
+      "n_test_files": 68,
+      "n_dirs": 0,
+      "total_code_lines": 54950,
+      "max_depth": 3,
+      "lang_counts": {
+        "Python": 213,
+        "Config": 2,
+        "ReST": 63
+      },
+      "top_level_dirs": [
+        ".faq",
+        "assets",
+        "benchmarks",
+        "docs",
+        "examples",
+        "imgs",
+        "questions",
+        "rich",
+        "tests",
+        "tools"
+      ],
+      "path_segments": {
+        ".faq": 1,
+        "assets": 1,
+        "benchmarks": 1,
+        "docs": 1,
+        "examples": 1,
+        "imgs": 1,
+        "questions": 1,
+        "rich": 1,
+        "tests": 1,
+        "tools": 1,
+        "results": 1,
+        "darrenburns-2022-mbp": 1,
+        "images": 1,
+        "source": 1,
+        "appendix": 1,
+        "reference": 1,
+        "_unicode_data": 1
+      },
+      "test_path_ratio": 0.12546125461254612,
+      "src_to_test_ratio": 3.088235294117647
+    },
+    "top": [
+      {
+        "rank": 1,
+        "repo": "pallets/quart",
+        "score": 0.766998,
+        "components": {
+          "size": 0.863,
+          "primary_lang": 1.0,
+          "lang_shape": 0.8648,
+          "top_dirs": 0.2727,
+          "test_ratio": 0.9825
+        },
+        "why": "主语言同为 Python；代码规模接近（278 vs 128 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 2,
+        "repo": "tox-dev/tox",
+        "score": 0.710453,
+        "components": {
+          "size": 0.9956,
+          "primary_lang": 1.0,
+          "lang_shape": 0.6578,
+          "top_dirs": 0.2308,
+          "test_ratio": 0.7748
+        },
+        "why": "主语言同为 Python；代码规模接近（278 vs 285 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 3,
+        "repo": "sanic-org/sanic",
+        "score": 0.708687,
+        "components": {
+          "size": 0.9608,
+          "primary_lang": 1.0,
+          "lang_shape": 0.6426,
+          "top_dirs": 0.2,
+          "test_ratio": 0.8507
+        },
+        "why": "主语言同为 Python；代码规模接近（278 vs 350 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 4,
+        "repo": "Textualize/textual",
+        "score": 0.686147,
+        "components": {
+          "size": 0.8163,
+          "primary_lang": 1.0,
+          "lang_shape": 0.4903,
+          "top_dirs": 0.5385,
+          "test_ratio": 0.5737
+        },
+        "why": "主语言同为 Python；顶层目录重合：.faq, docs, examples, imgs；代码规模接近（278 vs 990 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 5,
+        "repo": "pallets/flask",
+        "score": 0.685143,
+        "components": {
+          "size": 0.9046,
+          "primary_lang": 1.0,
+          "lang_shape": 0.5247,
+          "top_dirs": 0.25,
+          "test_ratio": 0.8151
+        },
+        "why": "主语言同为 Python；代码规模接近（278 vs 162 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 6,
+        "repo": "encode/starlette",
+        "score": 0.654258,
+        "components": {
+          "size": 0.7889,
+          "primary_lang": 1.0,
+          "lang_shape": 0.4757,
+          "top_dirs": 0.25,
+          "test_ratio": 0.8131
+        },
+        "why": "主语言同为 Python；代码规模接近（278 vs 84 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 7,
+        "repo": "python-poetry/poetry",
+        "score": 0.65215,
+        "components": {
+          "size": 0.9152,
+          "primary_lang": 1.0,
+          "lang_shape": 0.6314,
+          "top_dirs": 0.2727,
+          "test_ratio": 0.5311
+        },
+        "why": "主语言同为 Python；代码规模接近（278 vs 469 个代码文件）；测试目录布局接近"
+      },
+      {
+        "rank": 8,
+        "repo": "tiangolo/typer",
+        "score": 0.644136,
+        "components": {
+          "size": 0.8715,
+          "primary_lang": 1.0,
+          "lang_shape": 0.5063,
+          "top_dirs": 0.1538,
+          "test_ratio": 0.7772
+        },
+        "why": "主语言同为 Python；代码规模接近（278 vs 639 个代码文件）；测试目录布局接近"
+      }
+    ]
+  },
+  "gin-gonic/gin": {
+    "target_features": {
+      "name": "gin-gonic/gin",
+      "path": "..\\corpus\\gin-gonic__gin",
+      "n_files": 121,
+      "n_code_files": 99,
+      "n_test_files": 2,
+      "n_dirs": 0,
+      "total_code_lines": 24513,
+      "max_depth": 2,
+      "lang_counts": {
+        "Go": 99
+      },
+      "top_level_dirs": [
+        "binding",
+        "codec",
+        "docs",
+        "examples",
+        "ginS",
+        "internal",
+        "render",
+        "testdata"
+      ],
+      "path_segments": {
+        "binding": 1,
+        "codec": 1,
+        "docs": 1,
+        "examples": 1,
+        "ginS": 1,
+        "internal": 1,
+        "render": 1,
+        "testdata": 1,
+        "json": 1,
+        "bytesconv": 1,
+        "fs": 1,
+        "certificate": 1,
+        "protoexample": 1,
+        "template": 1
+      },
+      "test_path_ratio": 0.01652892561983471,
+      "src_to_test_ratio": 48.5
+    },
+    "top": [
+      {
+        "rank": 1,
+        "repo": "gohugoio/hugo",
+        "score": 0.525223,
+        "components": {
+          "size": 0.6724,
+          "primary_lang": 1.0,
+          "lang_shape": 0.8671,
+          "top_dirs": 0.0435,
+          "test_ratio": 0.249
+        },
+        "why": "主语言同为 Go；代码规模接近（99 vs 942 个代码文件）"
+      },
+      {
+        "rank": 2,
+        "repo": "pallets/click",
+        "score": 0.379327,
+        "components": {
+          "size": 0.9842,
+          "primary_lang": 0.0,
+          "lang_shape": 0.9135,
+          "top_dirs": 0.1818,
+          "test_ratio": 0.0
+        },
+        "why": "代码规模接近（99 vs 92 个代码文件）"
+      },
+      {
+        "rank": 3,
+        "repo": "encode/uvicorn",
+        "score": 0.365669,
+        "components": {
+          "size": 0.9647,
+          "primary_lang": 0.0,
+          "lang_shape": 1.0,
+          "top_dirs": 0.0909,
+          "test_ratio": 0.0
+        },
+        "why": "代码规模接近（99 vs 84 个代码文件）"
+      },
+      {
+        "rank": 4,
+        "repo": "encode/starlette",
+        "score": 0.363775,
+        "components": {
+          "size": 0.9647,
+          "primary_lang": 0.0,
+          "lang_shape": 1.0,
+          "top_dirs": 0.0833,
+          "test_ratio": 0.0
+        },
+        "why": "代码规模接近（99 vs 84 个代码文件）"
+      },
+      {
+        "rank": 5,
+        "repo": "encode/httpx",
+        "score": 0.35126,
+        "components": {
+          "size": 0.8927,
+          "primary_lang": 0.0,
+          "lang_shape": 1.0,
+          "top_dirs": 0.0909,
+          "test_ratio": 0.0
+        },
+        "why": "代码规模接近（99 vs 60 个代码文件）"
+      },
+      {
+        "rank": 6,
+        "repo": "sanic-org/sanic",
+        "score": 0.321711,
+        "components": {
+          "size": 0.7858,
+          "primary_lang": 0.0,
+          "lang_shape": 0.8331,
+          "top_dirs": 0.1429,
+          "test_ratio": 0.0194
+        },
+        "why": "代码规模接近（99 vs 350 个代码文件）"
+      },
+      {
+        "rank": 7,
+        "repo": "pallets/quart",
+        "score": 0.320836,
+        "components": {
+          "size": 0.9476,
+          "primary_lang": 0.0,
+          "lang_shape": 0.3405,
+          "top_dirs": 0.2,
+          "test_ratio": 0.1512
+        },
+        "why": "代码规模接近（99 vs 128 个代码文件）"
+      },
+      {
+        "rank": 8,
+        "repo": "Textualize/textual",
+        "score": 0.31258,
+        "components": {
+          "size": 0.6675,
+          "primary_lang": 0.0,
+          "lang_shape": 0.9855,
+          "top_dirs": 0.125,
+          "test_ratio": 0.0
+        },
+        "why": "代码规模接近（99 vs 990 个代码文件）"
+      }
+    ]
+  }
+}
