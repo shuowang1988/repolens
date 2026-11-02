@@ -191,3 +191,4 @@ Set-Location "D:\Kaggle 比赛\01_gemma4_paper\tool\src"
 ## 环境
 
 Python 3.12.7，纯标准库（无第三方依赖），断网可跑。
+Probe: dsh-superagent end-to-end check.
